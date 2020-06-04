@@ -8,3 +8,6 @@ S - Ground
 
 Operation:  
 Turn on Hazer output by setting control to VCC from Ground  
+
+Makes use of DMX Serial Library
+https://github.com/mathertel/DMXSerial
