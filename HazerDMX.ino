@@ -7,6 +7,8 @@ const int addrDMX = 254;
 
 // Setup pins
 void setup() {
+  DMXSerial.init(DMXReceiver);
+  
   pinMode(relayPin, OUTPUT);
   DMXSerial.write(addrDMX, 0);
   digitalWrite(relayPin, LOW);
